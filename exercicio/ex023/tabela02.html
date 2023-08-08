@@ -11,6 +11,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th {
             border: 1px solid black;
@@ -23,8 +24,16 @@
             background-color: lightgray;
         }
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(38, 37, 37);
             color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(38, 37, 37) ;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
         }
         td.num {
             text-align: right;
@@ -158,5 +167,8 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti recusandae saepe totam sapiente doloremque nemo sed molestias deserunt modi porro consectetur ut, animi veritatis. Dicta velit quod deserunt tempore odio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas officiis veniam blanditiis nemo, molestiae dolor, velit natus laudantium consequuntur reprehenderit culpa consequatur. Natus aliquam deserunt debitis inventore, quae explicaboLorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quam provident fuga officia cumque. Rem, officiis vitae alias asperiores doloribus, blanditiis a doloremque enim cum perspiciatis in porro, perferendis hic?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut dolor expedita perspiciatis, quis vel deserunt minus dolores magni modi nostrum? Fugit sint saepe ab blanditiis recusandae iure perspiciatis odit sapiente?Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tempore ducimus rerum ipsum maxime, perspiciatis suscipit officiis doloribus eveniet optio debitis, dolore ab cupiditate rem animi incidunt minima dolor odio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nobis atque labore ab similique delectus cum fugiat! Eveniet non vel nisi esse, assumenda quis quo mollitia explicabo reiciendis nulla veniam!Lorem</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore pariatur velit, officia corporis totam possimus repudiandae deserunt aperiam cum corrupti doloribus ad! Quasi maxime blanditiis pariatur. Distinctio voluptatem atque consectetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veritatis, fugit nobis nemo cum odit magnam architecto illo blanditiis excepturi voluptates aut? Libero, eius incidunt ipsa earum doloremque ducimus dolor.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis dicta aliquam, aliquid, repellendus iure nulla officia sunt tenetur facere numquam pariatur accusamus fuga odit non fugit, quo dolores doloremque architecto.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt in aliquid libero sapiente neque veritatis, corporis doloribus at. Facilis hic corrupti placeat optio, aperiam error vel non soluta minima quia!Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iste pariatur, ipsum tenetur nisi impedit ipsam iure error odit nemo dignissimos, ad non earum cumque aperiam molestiae. Asperiores, nesciunt deserunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia minima est eum et laudantium eius sapiente ex harum rerum, ea, vero distinctio cumque, id cum at. Error exercitationem et vitae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, error nulla! Omnis cum mollitia laborum nisi. Eum libero dolores, quidem laborum nobis nihil hic tenetur, aut dolore itaque facere officiis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid est libero eum rerum reprehenderit at ipsum officia deserunt. Repellat quo recusandae amet, labore quis mollitia officia nobis culpa deserunt laborum?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta quam illo, tenetur libero vel veritatis qui. Natus iure explicabo vel porro alias quasi, fugiat eligendi voluptatum voluptas esse dicta quis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam ullam facilis ducimus minima molestias possimus voluptates beatae aut a dolore distinctio atque accusantium, delectus reiciendis laudantium? Cum qui cupiditate neque!</p>
 </body>
 </html>
