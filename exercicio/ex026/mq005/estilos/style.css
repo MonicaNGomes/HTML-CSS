@@ -40,7 +40,7 @@ menu > ul > li > a {
     text-align: center;
     background-color: rgb(87, 87, 87);
     color: white;
-    border-top: 0cqh2px solid gray;
+    border-top: 2px solid gray;
 }
 menu > ul > li > a:hover {
     background-color: gray;
@@ -48,7 +48,7 @@ menu > ul > li > a:hover {
 main {
     width: 90vw;
     background-color: white;
-    margin: 10px;
+    margin: auto;
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
